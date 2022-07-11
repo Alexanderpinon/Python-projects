@@ -4,13 +4,7 @@ class User:
      password = "1234abcd"
      account = 0
 
-class Empolyee(User):
-    base_pay = 11.00
-    department = 'General'
 
-class Customer(User):
-    mailing_address = ' '
-    mailing_list = True
 
 
 def login(self):
