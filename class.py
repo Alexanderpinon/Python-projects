@@ -4,7 +4,10 @@ class User:
      password = "1234abcd"
      account = 0
 
+class Empolyee(User):
 
+class Customer(User):
+   
 
 
 def login(self):
