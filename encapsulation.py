@@ -1,4 +1,4 @@
-class Protected:
+class Private:
     def __init__(self):
         self.__privateVar = 12
 
@@ -8,7 +8,7 @@ class Protected:
     def setPrivate(self, private):
         self.__privateVar = private
                                                 
-obj = Protected()
+obj = Private()
 obj.getPrivate()
 obj.setPrivate(23)
 obj.getPrivate()
