@@ -10,8 +10,7 @@ class UniversityCampus(models.Model):
 
     object = models.Manager()
 
-
-class Meta:
-    verbose_name_plural = "UniversityCampus"
+    class Meta:
+        verbose_name_plural = "UniversityCampus"
 
 
